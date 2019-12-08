@@ -1,0 +1,3 @@
+Used plugins:
+NodeJS
+Git
