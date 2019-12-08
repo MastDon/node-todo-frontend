@@ -1,3 +1,3 @@
 Used plugins:
 NodeJS Plugin
-GitHub
+Git
