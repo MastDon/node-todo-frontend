@@ -21,6 +21,20 @@ pipeline {
       steps {
          sh 'npm test'
       }
-    }      
+    }
+
+    stage('Terraform init') {
+      steps {
+         sh 'terraform init'
+      }
+    }
+
+    stage('Terraform plan') {
+           steps {
+               withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_credentials', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+                   sh 'terraform plan '
+               }
+           }
+       }      
   }
 }
