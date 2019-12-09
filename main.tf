@@ -46,7 +46,7 @@ resource "aws_instance" "node_app" {
     
     ami = "ami-0cc0a36f626a4fdf5"
     count = 1
-    vpc_security_group_ids = [aws_security_group.web_server.id]
+    vpc_security_group_ids = [aws_security_group.nodejs_jenkins_app.id]
     
     instance_type = "t2.micro"
     key_name = "key"
