@@ -58,6 +58,7 @@ apt -y install npm
 sleep 20
 mkdir /home/ubuntu/node
 cd /home/ubuntu/node
+git clone https://github.com/MastDon/node-todo-frontend.git .
 npm install
 EOF
     tags = {
