@@ -56,8 +56,8 @@ apt update -y
 apt -y install nodejs
 apt -y install npm
 sleep 20
-mkdir node/
-cd node/
+mkdir /home/ubuntu/node
+cd /home/ubuntu/node
 npm install
 EOF
     tags = {
