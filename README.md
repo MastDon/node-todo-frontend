@@ -1,6 +1,10 @@
 FINISHED
 ==========
-Used Terraform for create EC2,VPC,deploy etc. 
+Used Terraform for create 
+- EC2 
+- VPC
+- deploy
+- etc.... 
 
 
 Used Jenkins plugin:
