@@ -46,7 +46,7 @@ pipeline {
     stage('Ansible test') {
            steps {
                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_credentials', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
-                   sh 'ansible --version '
+                   sh 'ansible --version'
                }
            }
        }         

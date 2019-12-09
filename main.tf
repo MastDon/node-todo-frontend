@@ -54,7 +54,11 @@ resource "aws_instance" "node_app" {
 #!/bin/bash
 apt update -y
 apt -y install nodejs
-apt -y install nodejs
+apt -y install npm
+sleep 20
+mkdir node/
+cd node/
+npm install
 EOF
     tags = {
         Name = "node_app"
