@@ -1,11 +1,9 @@
-Project FINISH.
+FINISHED
 ==========
-Used
- - Terraform
- - AWS
-==========
+Used Terraform for create EC2,VPC,deploy etc. 
 
-Used plugins:
+
+Used Jenkins plugin:
 
 - Amazon EC2 plugin 
 - CloudBees AWS Credentials Plugin
