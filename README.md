@@ -1,5 +1,14 @@
-Project in progress......
+Project FINISH.
+==========
+Used
+ - Terraform
+ - AWS
+==========
 
 Used plugins:
-EC2 Plugin 
--NodeJS Plugin
+
+- Amazon EC2 plugin 
+- CloudBees AWS Credentials Plugin
+- Email Extension Plugin
+- GitHub plugin
+- NodeJS Plugin
